@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "spatial_spec"
+version = "0.1.1"
+description = ""
+authors = ["Georg Schuppe <georg.schuppe@gmail.com>", "Christian Pek <pek2@kth.se>"]
+license = "LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+networkx = "^3.1"
+lark = "^1.1.5"
+ltlf2dfa = "^1.0.2"
+shapely = "^2.0.1"
+#Sphinx = { version = "7.0.0", optional = true }
+
+#[tool.poetry.extras]
+#docs = ["Sphinx"]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
